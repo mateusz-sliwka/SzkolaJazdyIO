@@ -83,44 +83,71 @@ public class Aplikacja {
         this.platnosci = platnosci;
     }
 
-    public void logowanie (String email, String haslo){}
+    public void logowanie(String email, String haslo) {
+    }
 
-    public void rejestracja(Uzytkownik uzytkownik){}
+    public void rejestracja(Uzytkownik uzytkownik) {
+    }
 
-    public void sesjaUzytkownika(Uzytkownik uzytkownik){}
+    public void sesjaUzytkownika(Uzytkownik uzytkownik) {
+    }
 
-    public void wylogowanie(Uzytkownik uzytkownik){}
+    public void wylogowanie(Uzytkownik uzytkownik) {
+    }
 
-    public Uzytkownik znajdzUzytkownika(int id){ return null;}
+    public Uzytkownik znajdzUzytkownika(int id) {
+        return null;
+    }
 
-    public void usunUzytkownika(Uzytkownik uzytkownik){}
+    public void usunUzytkownika(Uzytkownik uzytkownik) {
+    }
 
-    public Platnosc znajdzPlatnosc (int id){return null;}
+    public Platnosc znajdzPlatnosc(int id) {
+        return null;
+    }
 
-    public void dodajPlatnosc (Platnosc platnosc){}
+    public void dodajPlatnosc(Platnosc platnosc) {
+    }
 
-    public void usunPlatnosc (Platnosc platnosc){}
+    public void usunPlatnosc(Platnosc platnosc) {
+    }
 
-    public ArrayList<Platnosc> platnosciUzytkownika(int id){ return null;}
+    public ArrayList<Platnosc> platnosciUzytkownika(int id) {
+        return null;
+    }
 
-    public Rezerwacja znajdzRezerwacje(int id){return null;}
+    public Rezerwacja znajdzRezerwacje(int id) {
+        return null;
+    }
 
-    public void usunRezerwacje(Rezerwacja rezerwacja){}
+    public void usunRezerwacje(Rezerwacja rezerwacja) {
+    }
 
-    public void dodajRezerwacje(Rezerwacja rezerwacja){}
+    public void dodajRezerwacje(Rezerwacja rezerwacja) {
+    }
 
-    public ArrayList <Rezerwacja> rezerwacjeUzytkownika(Uzytkownik uzytkownik){return null;}
+    public ArrayList<Rezerwacja> rezerwacjeUzytkownika(Uzytkownik uzytkownik) {
+        return null;
+    }
 
-    public Usluga znajdzUsluge (int id){return null;}
+    public Usluga znajdzUsluge(int id) {
+        return null;
+    }
 
-    public void usunUsluge (Usluga usluga){}
+    public void usunUsluge(Usluga usluga) {
+    }
 
-    public void dodajUsluge (Usluga usluga){}
+    public void dodajUsluge(Usluga usluga) {
+    }
 
-    public void dodajKategorieInstruktora(KategoriaInstruktora kategoriaInstruktora){}
+    public void dodajKategorieInstruktora(KategoriaInstruktora kategoriaInstruktora) {
+    }
 
-    public void usunKategorieInstruktora(KategoriaInstruktora kategoriaInstruktora){}
+    public void usunKategorieInstruktora(KategoriaInstruktora kategoriaInstruktora) {
+    }
 
-    public ArrayList <KategoriaInstruktora> kategorieInstruktora (Instruktor instruktor){return null;}
+    public ArrayList<KategoriaInstruktora> kategorieInstruktora(Instruktor instruktor) {
+        return null;
+    }
 
 }
