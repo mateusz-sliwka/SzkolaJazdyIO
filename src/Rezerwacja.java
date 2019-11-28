@@ -52,11 +52,11 @@ public class Rezerwacja {
     }
 
     public Rezerwacja(int id, int ilosc, Date dataStart, Instruktor instruktor, Kursant kursant, Usluga usluga) {
-        this.id = id;
-        this.ilosc = ilosc;
-        this.dataStart = dataStart;
-        this.instruktor = instruktor;
-        this.kursant = kursant;
-        this.usluga = usluga;
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+
 }

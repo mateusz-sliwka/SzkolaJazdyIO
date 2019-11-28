@@ -4,9 +4,6 @@ public class KategoriaInstruktora {
     protected Instruktor instruktor;
 
     public KategoriaInstruktora(int id, Kategoria kategoria, Instruktor instruktor) {
-        this.id = id;
-        this.kategoria = kategoria;
-        this.instruktor = instruktor;
     }
 
     public int getId(){
@@ -28,4 +25,10 @@ public class KategoriaInstruktora {
     public void setInstruktor(Instruktor instruktor) {
         this.instruktor = instruktor;
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+
 }

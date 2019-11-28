@@ -3,8 +3,6 @@ public class Kategoria {
     protected String nazwa;
 
     public Kategoria(int id, String nazwa) {
-        this.id = id;
-        this.nazwa = nazwa;
     }
 
     public int getId() {
@@ -22,4 +20,10 @@ public class Kategoria {
     public void setNazwa(String nazwa) {
         this.nazwa = nazwa;
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+
 }

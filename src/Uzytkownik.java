@@ -7,12 +7,6 @@ public class Uzytkownik {
     protected String nrTelefonu;
 
     public Uzytkownik(int id, String haslo, String email, String imie, String nazwisko, String nrTelefonu) {
-        this.id = id;
-        this.haslo = haslo;
-        this.email = email;
-        this.imie = imie;
-        this.nazwisko = nazwisko;
-        this.nrTelefonu = nrTelefonu;
     }
 
     public int getId(){
@@ -57,4 +51,10 @@ public class Uzytkownik {
     public void setNrTelefonu(String nrTelefonu) {
         this.nrTelefonu = nrTelefonu;
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+
 }

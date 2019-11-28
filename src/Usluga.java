@@ -5,10 +5,6 @@ public class Usluga {
     private Kategoria kategoria;
 
     public Usluga(int id, String nazwa, int cena, Kategoria kategoria) {
-        this.id = id;
-        this.nazwa = nazwa;
-        this.cena = cena;
-        this.kategoria = kategoria;
     }
 
     public int getId() {
@@ -38,4 +34,10 @@ public class Usluga {
     public void setKategoria(Kategoria kategoria) {
         this.kategoria = kategoria;
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+
 }

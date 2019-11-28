@@ -7,10 +7,6 @@ public class Platnosc {
     protected int wartosc;
 
     public Platnosc(int id, Date dataPlatnosci, Kursant kursant, int wartosc) {
-        this.id = id;
-        this.dataPlatnosci = dataPlatnosci;
-        this.kursant = kursant;
-        this.wartosc = wartosc;
     }
 
     public int getId() {
@@ -40,4 +36,10 @@ public class Platnosc {
     public void setWartosc(int wartosc) {
         this.wartosc = wartosc;
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+
 }

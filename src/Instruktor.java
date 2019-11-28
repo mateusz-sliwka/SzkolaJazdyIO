@@ -6,8 +6,6 @@ public class Instruktor extends Uzytkownik {
 
     public Instruktor(int id, String haslo, String email, String imie, String nazwisko, String nrTelefonu, int godzStartuPracy, int godzKoncaPracy) {
         super(id, haslo, email, imie, nazwisko, nrTelefonu);
-        this.godzStartuPracy = godzStartuPracy;
-        this.godzKoncaPracy = godzKoncaPracy;
     }
 
     public int getGodzStartuPracy() {
@@ -25,4 +23,10 @@ public class Instruktor extends Uzytkownik {
     public void setGodzKoncaPracy(int godzKoncaPracy) {
         this.godzKoncaPracy = godzKoncaPracy;
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+
 }
