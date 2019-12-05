@@ -1,16 +1,21 @@
 import java.util.Date;
+import java.util.Objects;
 
 public class Rezerwacja {
-    private int id;
-    private int ilosc;
-    private Date dataStart;
     protected Instruktor instruktor;
     protected Kursant kursant;
     protected Usluga usluga;
+    private int ilosc;
+    private Date dataStart;
 
-    public int getId(){
-        return id;
+    public Rezerwacja(int ilosc, Date dataStart, Instruktor instruktor, Kursant kursant, Usluga usluga) {
+        this.ilosc = ilosc;
+        this.dataStart = dataStart;
+        this.instruktor = instruktor;
+        this.kursant = kursant;
+        this.usluga = usluga;
     }
+
     public int getIlosc() {
         return ilosc;
     }
@@ -51,12 +56,26 @@ public class Rezerwacja {
         this.usluga = usluga;
     }
 
-    public Rezerwacja(int id, int ilosc, Date dataStart, Instruktor instruktor, Kursant kursant, Usluga usluga) {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Rezerwacja that = (Rezerwacja) o;
+        return ilosc == that.ilosc &&
+                Objects.equals(dataStart, that.dataStart) &&
+                Objects.equals(instruktor, that.instruktor) &&
+                Objects.equals(kursant, that.kursant) &&
+                Objects.equals(usluga, that.usluga);
     }
 
     @Override
     public String toString() {
-        return null;
+        return "Rezerwacja{" +
+                "ilosc=" + ilosc +
+                ", dataStart=" + dataStart +
+                ", instruktor=" + instruktor +
+                ", kursant=" + kursant +
+                ", usluga=" + usluga +
+                '}';
     }
-
 }

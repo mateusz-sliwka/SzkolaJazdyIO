@@ -1,17 +1,16 @@
+import java.util.Objects;
+
 public class Uzytkownik {
-    protected int id;
     protected String haslo;
     protected String email;
     protected String imie;
     protected String nazwisko;
     protected String nrTelefonu;
 
-    public Uzytkownik(int id, String haslo, String email, String imie, String nazwisko, String nrTelefonu) {
+
+    public Uzytkownik(String haslo, String email, String imie, String nazwisko, String nrTelefonu) {
     }
 
-    public int getId(){
-        return id;
-    }
     public String getHaslo() {
         return haslo;
     }
@@ -52,9 +51,26 @@ public class Uzytkownik {
         this.nrTelefonu = nrTelefonu;
     }
 
+
     @Override
-    public String toString() {
-        return null;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Uzytkownik that = (Uzytkownik) o;
+        return Objects.equals(haslo, that.haslo) &&
+                Objects.equals(email, that.email) &&
+                Objects.equals(imie, that.imie) &&
+                Objects.equals(nazwisko, that.nazwisko) &&
+                Objects.equals(nrTelefonu, that.nrTelefonu);
     }
 
+    @Override
+    public String toString() {
+        return "Uzytkownik{" +
+                "email='" + email + '\'' +
+                ", imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", nrTelefonu='" + nrTelefonu + '\'' +
+                '}';
+    }
 }

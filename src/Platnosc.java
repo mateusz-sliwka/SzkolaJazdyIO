@@ -1,16 +1,16 @@
 import java.util.Date;
+import java.util.Objects;
 
 public class Platnosc {
-    protected int id;
+
     protected Date dataPlatnosci;
-    private Kursant kursant;
     protected int wartosc;
+    private Kursant kursant;
 
-    public Platnosc(int id, Date dataPlatnosci, Kursant kursant, int wartosc) {
-    }
-
-    public int getId() {
-        return id;
+    public Platnosc(Date dataPlatnosci, Kursant kursant, int wartosc) {
+        this.dataPlatnosci = dataPlatnosci;
+        this.kursant = kursant;
+        this.wartosc = wartosc;
     }
 
     public Date getDataPlatnosci() {
@@ -37,9 +37,23 @@ public class Platnosc {
         this.wartosc = wartosc;
     }
 
+
     @Override
-    public String toString() {
-        return null;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Platnosc platnosc = (Platnosc) o;
+        return wartosc == platnosc.wartosc &&
+                Objects.equals(dataPlatnosci, platnosc.dataPlatnosci) &&
+                Objects.equals(kursant, platnosc.kursant);
     }
 
+    @Override
+    public String toString() {
+        return "Platnosc{" +
+                "dataPlatnosci=" + dataPlatnosci +
+                ", kursant=" + kursant +
+                ", wartosc=" + wartosc +
+                '}';
+    }
 }

@@ -1,14 +1,14 @@
+import java.util.Objects;
+
 public class Usluga {
-    protected int id;
     protected String nazwa;
     protected int cena;
     private Kategoria kategoria;
 
-    public Usluga(int id, String nazwa, int cena, Kategoria kategoria) {
-    }
-
-    public int getId() {
-        return id;
+    public Usluga(String nazwa, int cena, Kategoria kategoria) {
+        this.nazwa = nazwa;
+        this.cena = cena;
+        this.kategoria = kategoria;
     }
 
     public String getNazwa() {
@@ -36,8 +36,21 @@ public class Usluga {
     }
 
     @Override
-    public String toString() {
-        return null;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Usluga usluga = (Usluga) o;
+        return cena == usluga.cena &&
+                Objects.equals(nazwa, usluga.nazwa) &&
+                Objects.equals(kategoria, usluga.kategoria);
     }
 
+    @Override
+    public String toString() {
+        return "Usluga{" +
+                "nazwa='" + nazwa + '\'' +
+                ", cena=" + cena +
+                ", kategoria=" + kategoria +
+                '}';
+    }
 }

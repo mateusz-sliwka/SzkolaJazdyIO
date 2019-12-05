@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9e016e-6d74-4f55-ae8b-705f6aa6b757" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aplikacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instruktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instruktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kategoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kategoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KategoriaInstruktora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kursant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kursant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Platnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Platnosc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rezerwacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rezerwacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usluga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usluga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uzytkownik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uzytkownik.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,6 +50,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Aplikacja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplikacja" />
+      <module name="SzkolaJazdyIO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aplikacja" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -50,7 +74,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574974885629</updated>
-      <workItem from="1574974889357" duration="5045000" />
+      <workItem from="1574974889357" duration="5351000" />
+      <workItem from="1574982576725" duration="208000" />
+      <workItem from="1575030084047" duration="561000" />
+      <workItem from="1575497709512" duration="69000" />
+      <workItem from="1575497794222" duration="198000" />
+      <workItem from="1575498112791" duration="45000" />
+      <workItem from="1575500919584" duration="8889000" />
     </task>
     <servers />
   </component>
@@ -62,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
