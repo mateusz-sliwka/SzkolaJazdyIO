@@ -2,7 +2,9 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
+
 public class Aplikacja {
+    enum RodzajKonta{Kursant,Instruktor,Administrator};
     private ArrayList<Kursant> kursanci;
     private ArrayList<Instruktor> instruktorzy;
     private ArrayList<Usluga> uslugi;
@@ -78,7 +80,11 @@ public class Aplikacja {
      **/
 
 
-    public void logowanie(String email, String haslo) {
+    public boolean logowanie(String email, String haslo, RodzajKonta rodzajKonta) {
+        if(rodzajKonta==RodzajKonta.Administrator)
+            administratorzy.
+            else if(rodzajKonta==RodzajKonta.Kursant)
+                else if(rodzajKonta==RodzajKonta.Instruktor)
     }
 
     public void rejestracja(Uzytkownik uzytkownik) {
