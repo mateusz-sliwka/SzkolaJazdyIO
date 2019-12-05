@@ -186,6 +186,7 @@ public class Aplikacja {
     }
 
     public static void main(String[] args) {
+        //TODO: ZAPYTAC O PETLE, ZAPYTAC O IFY ZAGNIEZDZONE, ZAPYTAC O ZAKONCZENIA PO PETLI I KAZDE INNE TEZ S
         System.out.println("Start programu");
     }
 
