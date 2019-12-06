@@ -4,14 +4,16 @@ import java.util.Date;
 
 
 public class Aplikacja {
-    enum RodzajKonta{Kursant,Instruktor,Administrator};
-    private ArrayList<Kursant> kursanci;
-    private ArrayList<Instruktor> instruktorzy;
-    private ArrayList<Usluga> uslugi;
-    private ArrayList<Rezerwacja> rezerwacje;
-    private ArrayList<Administrator> administratorzy;
-    private ArrayList<Kategoria> kategorie;
-    private ArrayList<Platnosc> platnosci;
+    enum RodzajKonta {Kursant, Instruktor, Administrator}
+
+    ;
+    private ArrayList<Kursant> kursanci = new ArrayList<>();
+    private ArrayList<Instruktor> instruktorzy = new ArrayList<>();
+    private ArrayList<Usluga> uslugi = new ArrayList<>();
+    private ArrayList<Rezerwacja> rezerwacje = new ArrayList<>();
+    private ArrayList<Administrator> administratorzy = new ArrayList<>();
+    private ArrayList<Kategoria> kategorie = new ArrayList<>();
+    private ArrayList<Platnosc> platnosci = new ArrayList<>();
 
 
     /**
@@ -80,13 +82,12 @@ public class Aplikacja {
      **/
 
 
-    public boolean logowanie(String email, String haslo, RodzajKonta rodzajKonta) {
-        if(rodzajKonta==RodzajKonta.Administrator)
-            administratorzy.
-            else if(rodzajKonta==RodzajKonta.Kursant)
-                else if(rodzajKonta==RodzajKonta.Instruktor)
-    }
-
+//    public boolean logowanie(String email, String haslo, RodzajKonta rodzajKonta) {
+//        if(rodzajKonta==RodzajKonta.Administrator)
+//            administratorzy.
+//            else if(rodzajKonta==RodzajKonta.Kursant)
+//                else if(rodzajKonta==RodzajKonta.Instruktor)
+//    }
     public void rejestracja(Uzytkownik uzytkownik) {
     }
 
@@ -112,13 +113,13 @@ public class Aplikacja {
         Date regulaminowaData = c.getTime();
         for (Rezerwacja r : rezerwacje)
             if (new Date().before(regulaminowaData)) {
-                rezerwacje.remove(r);
                 Platnosc zwrot = new Platnosc(new Date(), rezerwacja.getKursant(), rezerwacja.getIlosc() * rezerwacja.getUsluga().getCena());
                 platnosci.add(zwrot);
-            } else {
-                rezerwacje.remove(r);
             }
-//TODO: CZY REZERWACJA USUNIE SIE SAMA Z LIST REZERWACJI W INSTRUKTORACH I KURSANTACH? DOBRZE JAKBY ZMIENILA SIE TAM NA NULL BO OD TEGO WYPLATA
+        rezerwacje.remove(rezerwacja);
+            rezerwacja.getInstruktor().getRezerwacje().remove(rezerwacja);
+        rezerwacja.getKursant().getRezerwacje().remove(rezerwacja);
+
     }
 
     public void dodajRezerwacje(Rezerwacja rezerwacja) {
@@ -128,27 +129,27 @@ public class Aplikacja {
                 if (rezerwacja.getInstruktor().czyMaPrawa(rezerwacja.getUsluga().getKategoria()))
                     if (rezerwacja.getKursant().getSaldo() >= rezerwacja.getIlosc() * rezerwacja.getUsluga().cena)
                         rezerwacje.add(rezerwacja);
-
-//TODO: CZY DODAJEMY REZERWACJE DO LIST REZERWACJI KONKRETNEGO KURSANTA I INSTRUKTORA CZY SAMO SIE DODA? A MOZE ZROBIMY METODE REFRESH ZEBY SAMI SCIAGALI
+                    rezerwacja.getInstruktor().getRezerwacje().add(rezerwacja);
+                    rezerwacja.getKursant().getRezerwacje().add(rezerwacja);
     }
 
     public void usunUsluge(Usluga usluga) {
         //usuwamy usluge z listy uslug
-        for (Usluga u : uslugi)
-            if (u.equals(usluga))
-                uslugi.remove(u);
-        //TODO: CZY AUTOMATYCZNIE USUNA SIE REZERWACJE Z DANYMI USLUGAMI CZY BEDA MIALY NULLA?
+        for (Rezerwacja r : rezerwacje) //przeiterowanie
+            if (r.getUsluga().equals(usluga))
+                r.setUsluga(null);
+        for (Kategoria k : kategorie)
+            k.getUslugi().remove(usluga);
+        uslugi.remove(usluga);
     }
 
     public void dodajUsluge(Usluga usluga) {
         //sprawdzamy czy podana usluga juz nie istnieje, equals porownuje cene, usluge i nazwe
-        boolean czyDuplikat = false;
-        for (Usluga u : uslugi)
-            if (u.equals(usluga))
-                czyDuplikat = true;
-        if (!czyDuplikat)
+        if (!uslugi.contains(usluga))
             uslugi.add(usluga);
-        //TODO: CZY DODAJEMY USLUGE DO LISTY USLUG DANEJ KATEGORII CZY SAMO SIE DODA?
+        for (Kategoria k : kategorie)
+            if (k == usluga.getKategoria())
+                k.getUslugi().add(usluga);
     }
 
     public void przypiszKategorie(Kategoria kategoria, Instruktor instruktor) {
@@ -168,17 +169,16 @@ public class Aplikacja {
     }
 
     public void usunKategorie(Kategoria kategoria) {
-        //usuwamy kategorie, musimy usunac takze uslugi ktore sie na niej opieraja i usunac ja z kategorii instruktora
-
         for (Usluga u : uslugi)
-            if (u.getKategoria() == kategoria)
-                uslugi.remove(u);
+            if (u.getKategoria().equals(kategoria))
+                u.setKategoria(null);
 
-        for (Kategoria k : kategorie)
-            if (k.equals(kategoria))
-                kategorie.remove(k);
 
-        //TODO: dodatkowo odswiezenie kategorii instruktora czy usuwamy tutaj z kazdego instruktora ktory ja zawiera, a moze sie samo usuwa?
+        for (Instruktor i : instruktorzy)
+            i.getKategorieInstruktora().remove(kategoria);
+
+        kategorie.remove(kategoria);
+
     }
 
     public ArrayList<Rezerwacja> kartaPracyInstruktora(Instruktor instruktor) {
@@ -186,9 +186,14 @@ public class Aplikacja {
     }
 
     public static void main(String[] args) {
-        //TODO: ZAPYTAC O PETLE, ZAPYTAC O IFY ZAGNIEZDZONE, ZAPYTAC O ZAKONCZENIA PO PETLI I KAZDE INNE TEZ S
-        System.out.println("Start programu");
+        Aplikacja aplikacja = new Aplikacja();
+        Kategoria kategoria = new Kategoria("B");
+        aplikacja.kategorie.add(kategoria);
+        Usluga usluga = new Usluga("Jazda", 10, kategoria);
+        aplikacja.uslugi.add(usluga);
+        System.out.println(usluga.getKategoria());
+        aplikacja.usunKategorie(kategoria);
+        System.out.println(usluga);
+
     }
-
-
 }
