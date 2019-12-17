@@ -9,6 +9,11 @@ public class Uzytkownik {
 
 
     public Uzytkownik(String haslo, String email, String imie, String nazwisko, String nrTelefonu) {
+        this.haslo=haslo;
+        this.email=email;
+        this.imie=imie;
+        this.nazwisko=nazwisko;
+        this.nrTelefonu=nrTelefonu;
     }
 
     public String getHaslo() {

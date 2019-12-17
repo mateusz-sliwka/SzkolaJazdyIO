@@ -1,1 +1,1 @@
-![alt text](https://github.com/mateusz-sliwka/SzkolaJazdyIO/blob/master/ROZPISKA-WAZNE.jpeg)
+![alt text](https://github.com/mateusz-sliwka/SzkolaJazdyIO/blob/master/todo.png)

@@ -4,9 +4,8 @@ import java.util.Date;
 
 
 public class Aplikacja {
-    enum RodzajKonta {Kursant, Instruktor, Administrator}
 
-    ;
+    private boolean zalogowany=false;
     private ArrayList<Kursant> kursanci = new ArrayList<>();
     private ArrayList<Instruktor> instruktorzy = new ArrayList<>();
     private ArrayList<Usluga> uslugi = new ArrayList<>();
@@ -14,6 +13,8 @@ public class Aplikacja {
     private ArrayList<Administrator> administratorzy = new ArrayList<>();
     private ArrayList<Kategoria> kategorie = new ArrayList<>();
     private ArrayList<Platnosc> platnosci = new ArrayList<>();
+    private ArrayList <Uzytkownik> uzytkownicy = new ArrayList<>();
+    private ArrayList<Uzytkownik> sesjaUzytkownikow = new ArrayList<Uzytkownik>();
 
 
     /**
@@ -77,27 +78,50 @@ public class Aplikacja {
         this.platnosci = platnosci;
     }
 
+
     /**
      * KONIEC GETTEROW I SETTEROW
      **/
 
 
-//    public boolean logowanie(String email, String haslo, RodzajKonta rodzajKonta) {
-//        if(rodzajKonta==RodzajKonta.Administrator)
-//            administratorzy.
-//            else if(rodzajKonta==RodzajKonta.Kursant)
-//                else if(rodzajKonta==RodzajKonta.Instruktor)
-//    }
-    public void rejestracja(Uzytkownik uzytkownik) {
+    public boolean logowanie (String email, String haslo){
+           for(Uzytkownik u : uzytkownicy)
+               if(u.email==email&&u.haslo==haslo)
+               {
+                   sesjaUzytkownikow.add(u);
+                   return true;
+                  }
+                return false;
+    }
+    public void rejestracja(Object uzytkownik) {
+
+            if(uzytkownik instanceof Instruktor)
+            {
+                Instruktor instruktor = (Instruktor) uzytkownik;
+                instruktorzy.add(instruktor);
+            }
+            else if(uzytkownik instanceof Kursant){
+                Kursant kursant = (Kursant) uzytkownik;
+                kursanci.add(kursant);
+            }
+            else if(uzytkownik instanceof Administrator){
+                Administrator administrator = (Administrator) uzytkownik;
+                administratorzy.add(administrator);
+            }
+            uzytkownicy.add((Uzytkownik)uzytkownik);
     }
 
-    public void sesjaUzytkownika(Uzytkownik uzytkownik) {
-    }
 
     public void wylogowanie(Uzytkownik uzytkownik) {
+        sesjaUzytkownikow.remove(uzytkownik);
     }
 
+public void przyjmijWplate(Kursant kursant, int wartosc){
+        Platnosc p = new Platnosc(new Date(),kursant,wartosc);
+        platnosci.add(p);
+        kursant.getPlatnosci().add(p);
 
+}
     public void usunPlatnosc(Platnosc platnosc) {
         //iterowanie po liscie platnosci i usuniecie podanej z listy, equals porownuje date,kursanta i wartosc
         for (Platnosc p : platnosci)
@@ -127,10 +151,14 @@ public class Aplikacja {
         if (rezerwacja.getInstruktor().czyDostepny(rezerwacja.getDataStart(), rezerwacja.getIlosc()))
             if (rezerwacja.getKursant().czyDostepny(rezerwacja.getDataStart(), rezerwacja.getIlosc()))
                 if (rezerwacja.getInstruktor().czyMaPrawa(rezerwacja.getUsluga().getKategoria()))
-                    if (rezerwacja.getKursant().getSaldo() >= rezerwacja.getIlosc() * rezerwacja.getUsluga().cena)
+                    if (rezerwacja.getKursant().getSaldo() >= rezerwacja.getIlosc() * rezerwacja.getUsluga().cena) {
                         rezerwacje.add(rezerwacja);
-                    rezerwacja.getInstruktor().getRezerwacje().add(rezerwacja);
-                    rezerwacja.getKursant().getRezerwacje().add(rezerwacja);
+                        rezerwacja.getInstruktor().getRezerwacje().add(rezerwacja);
+                        rezerwacja.getKursant().getRezerwacje().add(rezerwacja);
+                        Platnosc p = new Platnosc(new Date(),rezerwacja.kursant,(-1)*rezerwacja.getUsluga().getCena());
+                        rezerwacja.getKursant().getPlatnosci().add(p);
+                        platnosci.add(p);
+                    }
     }
 
     public void usunUsluge(Usluga usluga) {
@@ -192,8 +220,32 @@ public class Aplikacja {
         Usluga usluga = new Usluga("Jazda", 10, kategoria);
         aplikacja.uslugi.add(usluga);
         System.out.println(usluga.getKategoria());
-        aplikacja.usunKategorie(kategoria);
+
         System.out.println(usluga);
+        Kursant igor = new Kursant("igor123","igor@test.pl","Igor","Klepuszewski","444555666","98101099876","AKS3332222323");
+        Instruktor krzysiu = new Instruktor("krzychu123","krzychu@test.pl","Krzychu","Gajda","567765567",11,18);
+
+        aplikacja.rejestracja(igor);
+        aplikacja.rejestracja(krzysiu);
+
+        aplikacja.przyjmijWplate(igor,1100);
+
+        aplikacja.przypiszKategorie(kategoria,krzysiu);
+
+        System.out.println(aplikacja.logowanie("test@test.pl","212121"));
+        System.out.println(aplikacja.logowanie("igor@test.pl","igor123"));
+
+        Rezerwacja rezerwacja = new Rezerwacja(10,new Date(),krzysiu,igor,usluga);
+        aplikacja.dodajRezerwacje(rezerwacja);
+        System.out.println(igor.getRezerwacje());
+        System.out.println(krzysiu.getRezerwacje());
+
+        System.out.println(igor.getPlatnosci());
+        System.out.println(aplikacja.kartaPracyInstruktora(krzysiu));
+        aplikacja.odwolajRezerwacje(rezerwacja);
+        System.out.println(igor.getPlatnosci());
+
+
 
     }
 }
