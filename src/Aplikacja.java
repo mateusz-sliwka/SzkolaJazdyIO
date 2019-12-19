@@ -181,11 +181,7 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
     }
 
     public void dodajKategorie(Kategoria kategoria) {
-        boolean czyDuplikat = false;
-        for (Kategoria k : kategorie)
-            if (k.equals(kategoria))
-                czyDuplikat = true;
-        if (!czyDuplikat)
+        if (!kategorie.contains(kategoria))
             kategorie.add(kategoria);
     }
 
