@@ -16,11 +16,6 @@ public class Aplikacja {
     private ArrayList <Uzytkownik> uzytkownicy = new ArrayList<>();
     private ArrayList<Uzytkownik> sesjaUzytkownikow = new ArrayList<Uzytkownik>();
 
-
-    /**
-     * SETTERY I GETTERY
-     **/
-
     public ArrayList<Kursant> getKursanci() {
         return kursanci;
     }
@@ -79,11 +74,6 @@ public class Aplikacja {
     }
 
 
-    /**
-     * KONIEC GETTEROW I SETTEROW
-     **/
-
-
     public boolean logowanie (String email, String haslo){
            for(Uzytkownik u : uzytkownicy)
                if(u.email==email&&u.haslo==haslo)
@@ -123,10 +113,8 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
 
 }
     public void usunPlatnosc(Platnosc platnosc) {
-        platnosc.getKursant().getPlatnosci().remove(platnosc);  //TO JEST NOWE
-        for (Platnosc p : platnosci)
-            if (p.equals(platnosc))
-                platnosci.remove(p);
+        platnosc.getKursant().getPlatnosci().remove(platnosc);
+        platnosci.remove(platnosc);
     }
 
     public void odwolajRezerwacje(Rezerwacja rezerwacja) {
