@@ -123,14 +123,13 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
 
 }
     public void usunPlatnosc(Platnosc platnosc) {
-        //iterowanie po liscie platnosci i usuniecie podanej z listy, equals porownuje date,kursanta i wartosc
+        platnosc.getKursant().getPlatnosci().remove(platnosc);  //TO JEST NOWE
         for (Platnosc p : platnosci)
             if (p.equals(platnosc))
                 platnosci.remove(p);
     }
 
     public void odwolajRezerwacje(Rezerwacja rezerwacja) {
-        //uznajemy ze odwolac rezerwacje mozna max 1 dzien przed, wtedy oddajemy kase, jesli nie to kasa przepada i usuwamy rezerwacje
         Calendar c = Calendar.getInstance();
         c.setTime(rezerwacja.getDataStart());
         c.add(Calendar.DAY_OF_MONTH, -1);
@@ -140,14 +139,12 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
                 Platnosc zwrot = new Platnosc(new Date(), rezerwacja.getKursant(), rezerwacja.getIlosc() * rezerwacja.getUsluga().getCena());
                 platnosci.add(zwrot);
             }
-        rezerwacje.remove(rezerwacja);
-            rezerwacja.getInstruktor().getRezerwacje().remove(rezerwacja);
+        rezerwacja.getInstruktor().getRezerwacje().remove(rezerwacja);
         rezerwacja.getKursant().getRezerwacje().remove(rezerwacja);
-
+        rezerwacje.remove(rezerwacja);
     }
 
     public void dodajRezerwacje(Rezerwacja rezerwacja) {
-        //dodawanie rezerwacji, sprawdzamy dostepnosc instruktora, kursanta, prawa instruktora i to czy kursanta stac
         if (rezerwacja.getInstruktor().czyDostepny(rezerwacja.getDataStart(), rezerwacja.getIlosc()))
             if (rezerwacja.getKursant().czyDostepny(rezerwacja.getDataStart(), rezerwacja.getIlosc()))
                 if (rezerwacja.getInstruktor().czyMaPrawa(rezerwacja.getUsluga().getKategoria()))
@@ -162,8 +159,7 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
     }
 
     public void usunUsluge(Usluga usluga) {
-        //usuwamy usluge z listy uslug
-        for (Rezerwacja r : rezerwacje) //przeiterowanie
+        for (Rezerwacja r : rezerwacje)
             if (r.getUsluga().equals(usluga))
                 r.setUsluga(null);
         for (Kategoria k : kategorie)
@@ -172,7 +168,6 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
     }
 
     public void dodajUsluge(Usluga usluga) {
-        //sprawdzamy czy podana usluga juz nie istnieje, equals porownuje cene, usluge i nazwe
         if (!uslugi.contains(usluga))
             uslugi.add(usluga);
         for (Kategoria k : kategorie)
@@ -181,13 +176,11 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
     }
 
     public void przypiszKategorie(Kategoria kategoria, Instruktor instruktor) {
-        //dodajemy instruktora do instruktorow danej kategorii i kategorie do kategorii danego instruktora
         kategoria.getInstruktorzy().add(instruktor);
         instruktor.getKategorieInstruktora().add(kategoria);
     }
 
     public void dodajKategorie(Kategoria kategoria) {
-        //sprawdzamy czy nie ma juz takiej kategorii na podstawie equalsa porownujacego nazwy
         boolean czyDuplikat = false;
         for (Kategoria k : kategorie)
             if (k.equals(kategoria))
@@ -200,13 +193,9 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
         for (Usluga u : uslugi)
             if (u.getKategoria().equals(kategoria))
                 u.setKategoria(null);
-
-
         for (Instruktor i : instruktorzy)
             i.getKategorieInstruktora().remove(kategoria);
-
         kategorie.remove(kategoria);
-
     }
 
     public ArrayList<Rezerwacja> kartaPracyInstruktora(Instruktor instruktor) {
