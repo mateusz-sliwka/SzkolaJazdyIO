@@ -106,12 +106,7 @@ public class Aplikacja {
         sesjaUzytkownikow.remove(uzytkownik);
     }
 
-public void przyjmijWplate(Kursant kursant, int wartosc){
-        Platnosc p = new Platnosc(new Date(),kursant,wartosc);
-        platnosci.add(p);
-        kursant.getPlatnosci().add(p);
 
-}
     public void usunPlatnosc(Platnosc platnosc) {
         platnosc.getKursant().getPlatnosci().remove(platnosc);
         platnosci.remove(platnosc);
@@ -201,7 +196,7 @@ public void przyjmijWplate(Kursant kursant, int wartosc){
         aplikacja.rejestracja(igor);
         aplikacja.rejestracja(krzysiu);
 
-        aplikacja.przyjmijWplate(igor,1100);
+      
 
         aplikacja.przypiszKategorie(kategoria,krzysiu);
 
