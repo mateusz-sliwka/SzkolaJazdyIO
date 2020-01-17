@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9e016e-6d74-4f55-ae8b-705f6aa6b757" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jmockit_jmockit_1_49.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SzkolaJazdyIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SzkolaJazdyIO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Administrator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Aplikacja$RodzajKonta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Aplikacja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Aplikacja.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Instruktor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Instruktor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kategoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kategoria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kursant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kursant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Platnosc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Platnosc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Rezerwacja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Rezerwacja.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Usluga.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Usluga.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Uzytkownik.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Uzytkownik.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sr2030.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/sr2030.vpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aplikacja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instruktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruktor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kategoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Kategoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kursant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Kursant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Platnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Platnosc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rezerwacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rezerwacja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Usluga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Usluga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uzytkownik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Uzytkownik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +43,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunManager">
@@ -136,7 +106,7 @@
       <workItem from="1578868838234" duration="1427000" />
       <workItem from="1578874559629" duration="72000" />
       <workItem from="1579124337445" duration="2628000" />
-      <workItem from="1579263560337" duration="509000" />
+      <workItem from="1579263560337" duration="943000" />
     </task>
     <servers />
   </component>
@@ -157,6 +127,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="177" key="#Project_Structure" timestamp="1579265316484">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="440" y="177" key="#Project_Structure/0.23.1680.977@0.23.1680.977" timestamp="1579265316484" />
     <state x="454" y="207" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579263782839">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
