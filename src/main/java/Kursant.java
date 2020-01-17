@@ -9,6 +9,12 @@ public class Kursant extends Uzytkownik {
     private ArrayList<Rezerwacja> rezerwacje = new ArrayList<Rezerwacja>();
     private ArrayList<Platnosc> platnosci = new ArrayList<Platnosc>();
 
+    public int getSaldo() {
+        int saldo = 0;
+        for (Platnosc p : platnosci)
+            saldo += p.getWartosc();
+        return saldo;
+    }
     public Kursant(String haslo, String email, String imie, String nazwisko, String nrTelefonu, String pesel, String PKK) {
         super(haslo, email, imie, nazwisko, nrTelefonu);
         this.pesel = pesel;
@@ -48,12 +54,7 @@ public class Kursant extends Uzytkownik {
         this.platnosci = platnosci;
     }
 
-    public int getSaldo() {
-        int saldo = 0;
-        for (Platnosc p : platnosci)
-            saldo += p.getWartosc();
-        return saldo;
-    }
+
 
 
     public String getPesel() {

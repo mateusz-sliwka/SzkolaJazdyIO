@@ -182,38 +182,45 @@ public class Aplikacja {
     }
 
     public static void main(String[] args) {
-        Aplikacja aplikacja = new Aplikacja();
-        Kategoria kategoria = new Kategoria("B");
-        aplikacja.kategorie.add(kategoria);
-        Usluga usluga = new Usluga("Jazda", 10, kategoria);
-        aplikacja.uslugi.add(usluga);
-        System.out.println(usluga.getKategoria());
+//        Aplikacja aplikacja = new Aplikacja();
+//        Kategoria kategoria = new Kategoria("B");
+//        aplikacja.kategorie.add(kategoria);
+//        Usluga usluga = new Usluga("Jazda", 10, kategoria);
+//        aplikacja.uslugi.add(usluga);
+//        System.out.println(usluga.getKategoria());
+//
+//        System.out.println(usluga);
+//        Kursant igor = new Kursant("igor123","igor@test.pl","Igor","Klepuszewski","444555666","98101099876","AKS3332222323");
+//        Instruktor krzysiu = new Instruktor("krzychu123","krzychu@test.pl","Krzychu","Gajda","567765567",11,18);
+//
+//        aplikacja.rejestracja(igor);
+//        aplikacja.rejestracja(krzysiu);
+//
+//
+//
+//        aplikacja.przypiszKategorie(kategoria,krzysiu);
+//
+//        System.out.println(aplikacja.logowanie("test@test.pl","212121"));
+//        System.out.println(aplikacja.logowanie("igor@test.pl","igor123"));
+//
+//        Rezerwacja rezerwacja = new Rezerwacja(10,new Date(),krzysiu,igor,usluga);
+//        aplikacja.dodajRezerwacje(rezerwacja);
+//        System.out.println(igor.getRezerwacje());
+//        System.out.println(krzysiu.getRezerwacje());
+//
+//        System.out.println(igor.getPlatnosci());
+//        System.out.println(aplikacja.kartaPracyInstruktora(krzysiu));
+//        aplikacja.odwolajRezerwacje(rezerwacja);
+//        System.out.println(igor.getPlatnosci());
 
-        System.out.println(usluga);
-        Kursant igor = new Kursant("igor123","igor@test.pl","Igor","Klepuszewski","444555666","98101099876","AKS3332222323");
-        Instruktor krzysiu = new Instruktor("krzychu123","krzychu@test.pl","Krzychu","Gajda","567765567",11,18);
-
-        aplikacja.rejestracja(igor);
-        aplikacja.rejestracja(krzysiu);
-
-      
-
-        aplikacja.przypiszKategorie(kategoria,krzysiu);
-
-        System.out.println(aplikacja.logowanie("test@test.pl","212121"));
-        System.out.println(aplikacja.logowanie("igor@test.pl","igor123"));
-
-        Rezerwacja rezerwacja = new Rezerwacja(10,new Date(),krzysiu,igor,usluga);
-        aplikacja.dodajRezerwacje(rezerwacja);
-        System.out.println(igor.getRezerwacje());
-        System.out.println(krzysiu.getRezerwacje());
-
-        System.out.println(igor.getPlatnosci());
-        System.out.println(aplikacja.kartaPracyInstruktora(krzysiu));
-        aplikacja.odwolajRezerwacje(rezerwacja);
-        System.out.println(igor.getPlatnosci());
-
-
+int x = 10;
+int y=2;
+int z = 10;
+boolean czyRowne ;
+czyRowne = x==y;
+        System.out.println(czyRowne);
+        czyRowne = x==z;
+        System.out.println(czyRowne);
 
     }
 }

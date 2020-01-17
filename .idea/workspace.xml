@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9e016e-6d74-4f55-ae8b-705f6aa6b757" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jmockit_jmockit_1_49.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aplikacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SzkolaJazdyIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SzkolaJazdyIO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Administrator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Aplikacja$RodzajKonta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Aplikacja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Aplikacja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Instruktor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Instruktor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kategoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kategoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kursant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kursant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Platnosc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Platnosc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Rezerwacja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Rezerwacja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Usluga.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Usluga.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Uzytkownik.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Uzytkownik.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sr2030.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/sr2030.vpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aplikacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instruktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kategoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Kategoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kursant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Kursant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Platnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Platnosc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rezerwacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rezerwacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usluga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Usluga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uzytkownik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Uzytkownik.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,26 +53,30 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="VAYEDYlO" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1UGFB1GawEn2yptPAulrKaM41dP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunManager">
     <configuration name="Aplikacja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -58,6 +91,18 @@
         <item itemvalue="Application.Aplikacja" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,7 +127,16 @@
       <workItem from="1576680073434" duration="33000" />
       <workItem from="1576680124711" duration="36000" />
       <workItem from="1576786403828" duration="1884000" />
-      <workItem from="1576789181000" duration="3343000" />
+      <workItem from="1576789181000" duration="3501000" />
+      <workItem from="1576846867843" duration="561000" />
+      <workItem from="1577549719642" duration="208000" />
+      <workItem from="1578580908687" duration="126000" />
+      <workItem from="1578581049751" duration="575000" />
+      <workItem from="1578680585989" duration="363000" />
+      <workItem from="1578868838234" duration="1427000" />
+      <workItem from="1578874559629" duration="72000" />
+      <workItem from="1579124337445" duration="2628000" />
+      <workItem from="1579263560337" duration="509000" />
     </task>
     <servers />
   </component>
@@ -101,5 +155,39 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="207" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579263782839">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="454" y="207" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.977@0.23.1680.977" timestamp="1579263782839" />
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1579136592425">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1579136592425" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1579136592425">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1579136592425" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1579136592424">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1579136592424" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1579136592425">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1579136592425" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1578581115952">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1578581115952" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1578874618433">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578874618433" />
+    <state x="217" y="229" key="new project wizard" timestamp="1578681318041">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="217" y="229" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1578681318041" />
   </component>
 </project>
