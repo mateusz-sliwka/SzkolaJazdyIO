@@ -19,7 +19,7 @@ public class KursantTest {
         assertEquals(wynik[kolejnosc],kursant.getSaldo());
     }
 
-    @ParameterizedTest
+    @ParameterizedTest 
     @ValueSource(ints={0,1,2})
     void testGetSaldoWithTwoOperation(int kolejnosc){ //dodanie dwoch platnosci (uznania i obciazenia) i sprawdzenia czy poprawnie sumuje platnosci o warotsci roznego znaku
         kursant.getPlatnosci().add(new Platnosc(new Date(),kursant,2*(kolejnosc+1)*100));
