@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9e016e-6d74-4f55-ae8b-705f6aa6b757" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AplikacjaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SzkolaJazdyIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SzkolaJazdyIO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Aplikacja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Instruktor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kategoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Kursant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Platnosc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Rezerwacja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Usluga.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SzkolaJazdyIO/Uzytkownik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aplikacja.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,13 +55,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AplikacjaTest">
     <configuration name="Aplikacja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aplikacja" />
       <module name="SzkolaJazdyIO" />
@@ -56,8 +79,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AplikacjaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SzkolaJazdyIO" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AplikacjaTest" />
         <item itemvalue="Application.Aplikacja" />
       </list>
     </recent_temporary>
@@ -106,7 +139,8 @@
       <workItem from="1578868838234" duration="1427000" />
       <workItem from="1578874559629" duration="72000" />
       <workItem from="1579124337445" duration="2628000" />
-      <workItem from="1579263560337" duration="943000" />
+      <workItem from="1579263560337" duration="2709000" />
+      <workItem from="1579732118668" duration="574000" />
     </task>
     <servers />
   </component>
@@ -131,34 +165,43 @@
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="440" y="177" key="#Project_Structure/0.23.1680.977@0.23.1680.977" timestamp="1579265316484" />
+    <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579266473430">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.977@0.23.1680.977" timestamp="1579266473430" />
     <state x="454" y="207" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579263782839">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="454" y="207" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.977@0.23.1680.977" timestamp="1579263782839" />
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1579136592425">
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1579266658492">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1579136592425" />
-    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1579136592425">
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1579266658492" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1579266658491">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1579136592425" />
-    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1579136592424">
+    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1579266658491" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1579266658491">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1579136592424" />
-    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1579136592425">
+    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1579266658491" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1579266658492">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1579136592425" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1578581115952">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1579266658492" />
+    <state x="341" y="163" key="SettingsEditor" timestamp="1579266503586">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1578581115952" />
+    <state x="341" y="163" key="SettingsEditor/0.23.1680.977@0.23.1680.977" timestamp="1579266503586" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1578874618433">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578874618433" />
+    <state x="612" y="261" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579266028538">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="612" y="261" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.977@0.23.1680.977" timestamp="1579266028538" />
     <state x="217" y="229" key="new project wizard" timestamp="1578681318041">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
