@@ -31,7 +31,7 @@ public class Kursant extends Uzytkownik {
             c2.setTime(r.getDataStart());
             c2.add(Calendar.HOUR, r.getIlosc());
             Date dataEnd2 = c2.getTime();
-            if (r.getDataStart().after(dataStart) && r.getDataStart().before(dataEnd) || dataEnd2.after(dataStart) && dataEnd2.before(dataEnd))
+            if (r.getDataStart().after(dataStart) && r.getDataStart().before(dataEnd) || dataEnd2.after(dataStart) && dataEnd2.before(dataEnd) || r.getDataStart().equals(dataStart))
                 return false;
         }
         return true;

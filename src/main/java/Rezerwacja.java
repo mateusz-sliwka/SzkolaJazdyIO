@@ -16,6 +16,12 @@ public class Rezerwacja {
         this.usluga = usluga;
     }
 
+    public Rezerwacja(int ilosc, Date dataStart,  Kursant kursant) {
+        this.ilosc = ilosc;
+        this.dataStart = dataStart;
+        this.kursant = kursant;
+    }
+
     public int getIlosc() {
         return ilosc;
     }
