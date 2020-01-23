@@ -3,6 +3,7 @@ import org.junit.Before;
 import org.junit.experimental.categories.Category;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.mockito.Mock;
 
 import java.util.Date;
 
@@ -15,6 +16,8 @@ public class AplikacjaTest {
     public  AplikacjaTest(){
 
     }
+
+
     @Before
    public void setUp() {
         aplikacja = new Aplikacja();

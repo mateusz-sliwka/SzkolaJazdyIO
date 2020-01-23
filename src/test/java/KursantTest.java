@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import java.util.Date;
 
-@Category(AplikacjaTest.class)
+@Category(KursantTest.class)
 public class KursantTest {
     Kursant kursant = new Kursant("igor123","igor@test.pl","Igor","Klepuszewski","444555666","98101099876","AKS3332222323");
 
