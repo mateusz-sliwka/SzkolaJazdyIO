@@ -39,13 +39,12 @@ public class AplikacjaTest {
         when(kursant.getEmail()).thenReturn("igor@test.pl");
     }
 
-    @Category(DrivingSchoolSuiteTest.class)
+
     @Test
     public void testLogowanieWithIncorrectPassword() { //test logowania przy nieprawidlowym hasle
         Assertions.assertFalse(aplikacja.logowanie("igor@test.pl","igorek"));
     }
 
-    @Category(DrivingSchoolSuite.class)
     @Test
    public void testLogowanieWithCorrectPassword() { //testo logowania przy podaniu prawidlowego hasla
         Assertions.assertTrue(aplikacja.logowanie("igor@test.pl","igor123"));
