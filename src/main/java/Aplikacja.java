@@ -118,13 +118,14 @@ public class Aplikacja {
         c.setTime(rezerwacja.getDataStart());
         c.add(Calendar.DAY_OF_MONTH, -1);
         Date regulaminowaData = c.getTime();
-        for (Rezerwacja r : rezerwacje)
+
             if (new Date().before(regulaminowaData)) {
                 Platnosc zwrot = new Platnosc(new Date(), rezerwacja.getKursant(), rezerwacja.getIlosc() * rezerwacja.getUsluga().getCena());
                 platnosci.add(zwrot);
+
             }
-        rezerwacja.getInstruktor().getRezerwacje().remove(rezerwacja);
-        rezerwacja.getKursant().getRezerwacje().remove(rezerwacja);
+   rezerwacja.getInstruktor().getRezerwacje().remove(rezerwacja);
+     rezerwacja.getKursant().getRezerwacje().remove(rezerwacja);
         rezerwacje.remove(rezerwacja);
     }
 

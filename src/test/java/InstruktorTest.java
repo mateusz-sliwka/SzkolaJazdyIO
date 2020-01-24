@@ -1,20 +1,27 @@
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class InstruktorTest {
-    Instruktor i = new Instruktor("igor123","igor@test.pl","Igor","Klepuszewski","444555666",11,15);
+    Instruktor i;
+    Data data;
 
+    @Before
+    public void init(){
+        data=new Data();
+        i=data.getInstruktor();
+    }
     @Test
     public void testCzyMaPrawaNaPoczatku() //test sprawdzajacy poczatkowe prawa insturktora
     {
-        assertFalse(i.czyMaPrawa(new Kategoria("B")));
+        assertFalse(i.czyMaPrawa(data.getKategoria()));
     }
 
     @Test
     public void testCzyMaPrawaPoDodaniu() //test sprawdzajacy dzialanie nadanie praw instruktorowi
     {
-        i.getKategorieInstruktora().add(new Kategoria("B"));
-        assertTrue(i.czyMaPrawa(new Kategoria("B")));
+        i.getKategorieInstruktora().add(data.getKategoria());
+        assertTrue(i.czyMaPrawa(data.getKategoria()));
     }
 }

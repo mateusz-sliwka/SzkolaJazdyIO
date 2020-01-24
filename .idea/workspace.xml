@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9e016e-6d74-4f55-ae8b-705f6aa6b757" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MockedTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RezerwacjaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aplikacja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AplikacjaMockTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AplikacjaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AplikacjaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InstruktorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstruktorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KursantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KursantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlatnoscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlatnoscTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Aplikacja.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Aplikacja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AplikacjaMockTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/AplikacjaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AplikacjaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InstruktorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InstruktorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KursantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KursantTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PlatnoscTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PlatnoscTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,71 +78,67 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AplikacjaTest">
-    <configuration name="AplikacjaMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PlatnoscTest">
+    <configuration name="AplikacjaTest.testLogowanieWithIncorrectPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AplikacjaMockTest" />
+      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
+      <option name="METHOD_NAME" value="testLogowanieWithIncorrectPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstruktorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SzkolaJazdyIO" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InstruktorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AplikacjaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KursantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
+      <option name="MAIN_CLASS_NAME" value="KursantTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AplikacjaTest.testDodajRezerwacje" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockedTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
-      <option name="METHOD_NAME" value="testDodajRezerwacje" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="MockedTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AplikacjaTest.testDodajRezerwacjeZaMaleSaldo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlatnoscTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
-      <option name="METHOD_NAME" value="testDodajRezerwacjeZaMaleSaldo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AplikacjaTest.testLogowanieWithCorrectPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SzkolaJazdyIO" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
-      <option name="METHOD_NAME" value="testLogowanieWithCorrectPassword" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="PlatnoscTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AplikacjaTest" />
-      <item itemvalue="JUnit.AplikacjaMockTest" />
-      <item itemvalue="JUnit.AplikacjaTest.testDodajRezerwacje" />
-      <item itemvalue="JUnit.AplikacjaTest.testDodajRezerwacjeZaMaleSaldo" />
-      <item itemvalue="JUnit.AplikacjaTest.testLogowanieWithCorrectPassword" />
+      <item itemvalue="JUnit.InstruktorTest" />
+      <item itemvalue="JUnit.KursantTest" />
+      <item itemvalue="JUnit.AplikacjaTest.testLogowanieWithIncorrectPassword" />
+      <item itemvalue="JUnit.MockedTestSuite" />
+      <item itemvalue="JUnit.PlatnoscTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AplikacjaTest" />
-        <item itemvalue="JUnit.AplikacjaTest.testLogowanieWithCorrectPassword" />
-        <item itemvalue="JUnit.AplikacjaTest.testDodajRezerwacjeZaMaleSaldo" />
-        <item itemvalue="JUnit.AplikacjaTest.testDodajRezerwacje" />
-        <item itemvalue="JUnit.AplikacjaMockTest" />
+        <item itemvalue="JUnit.PlatnoscTest" />
+        <item itemvalue="JUnit.MockedTestSuite" />
+        <item itemvalue="JUnit.KursantTest" />
+        <item itemvalue="JUnit.InstruktorTest" />
+        <item itemvalue="JUnit.AplikacjaTest.testLogowanieWithIncorrectPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -221,30 +227,31 @@
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="454" y="207" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.977@0.23.1680.977" timestamp="1579263782839" />
-    <state x="137" y="0" key="CommitChangelistDialog2" timestamp="1579822800177">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state x="225" y="23" key="CommitChangelistDialog2" timestamp="1579830503999">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="137" y="0" key="CommitChangelistDialog2/0.0.1024.728@0.0.1024.728" timestamp="1579822800177" />
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1579828544794">
+    <state x="225" y="23" key="CommitChangelistDialog2/0.23.1680.977@0.23.1680.977" timestamp="1579830503999" />
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1579832769832">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1579822830701" />
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1579828544794" />
-    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1579828544793">
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1579832769832" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1579832769831">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1579822830700" />
-    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1579828544793" />
-    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1579828544792">
+    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1579832769831" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1579832769831">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1579822830700" />
-    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1579828544792" />
-    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1579828544794">
+    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1579832769831" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1579832769832">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1579822830701" />
-    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1579828544794" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1579832769832" />
     <state x="42" y="20" key="Maven.ArtifactSearchDialog" timestamp="1579817634084">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
@@ -276,9 +283,10 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="254" y="0" key="refactoring.ChangeSignatureDialog/0.0.1024.728@0.0.1024.728" timestamp="1579818166091" />
-    <state x="175" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579819326926">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state x="287" y="89" width="1103" height="910" key="search.everywhere.popup" timestamp="1579832176569">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="175" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1024.728@0.0.1024.728" timestamp="1579819326926" />
+    <state x="287" y="89" width="1103" height="910" key="search.everywhere.popup/0.23.1680.977@0.23.1680.977" timestamp="1579832176569" />
   </component>
 </project>

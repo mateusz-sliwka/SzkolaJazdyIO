@@ -1,3 +1,4 @@
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -8,8 +9,15 @@ import static org.junit.Assert.*;
 
 @Category(PlatnoscTest.class)
 public class PlatnoscTest {
-    Date date = new Date();
-    Kursant k = new Kursant("test","test@test.pl","test","tester","55533","2121","12121");
+    Data data;
+   Kursant k;
+   Date date;
+   @Before
+   public void setUp(){
+       data=new Data();
+       k=data.getKursant();
+       date = new Date();
+   }
     @Test
     public void testEquals(){ //sprawdzenie porownania dwoch platnosci o tych samych parametrach
         Platnosc p = new Platnosc(date,k,200);
@@ -27,6 +35,6 @@ public class PlatnoscTest {
     @Test
     public void testConstructor(){ //sprawdzenie poprawnosci przypisania uzytkownika do platnosci
         Platnosc p = new Platnosc(date,k,200);
-        assertEquals(p.getKursant().getPesel(),"2121");
+        assertEquals(p.getKursant().getPesel(),k.getPesel());
     }
 }
