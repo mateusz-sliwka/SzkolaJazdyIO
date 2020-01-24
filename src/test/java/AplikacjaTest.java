@@ -1,41 +1,49 @@
-
 import org.junit.Before;
 import org.junit.experimental.categories.Category;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 
 import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 @Category(AplikacjaTest.class)
 public class AplikacjaTest {
     Aplikacja aplikacja;
-    Kursant kursant;
+    @Mock
+    Kursant kursant=mock(Kursant.class);
+    @Mock
+    Instruktor instruktor=mock(Instruktor.class);
+    @Mock
+    Kategoria kategoria = mock(Kategoria.class);
+
     public  AplikacjaTest(){
 
     }
-
-
     @Before
    public void setUp() {
+        MockitoAnnotations.initMocks(this);
         aplikacja = new Aplikacja();
-        kursant = new Kursant("igor123","igor@test.pl","Igor","Klepuszewski","444555666","98101099876","AKS3332222323");
         aplikacja.rejestracja(kursant);
+        when(kursant.getHaslo()).thenReturn("igor123");
+        when(kursant.getEmail()).thenReturn("igor@test.pl");
     }
 
     @Category(DrivingSchoolSuiteTest.class)
     @Test
     public void testLogowanieWithIncorrectPassword() { //test logowania przy nieprawidlowym hasle
-        System.out.println("LogowanieWithIncorrectPassword");
         Assertions.assertFalse(aplikacja.logowanie("igor@test.pl","igorek"));
     }
 
     @Category(DrivingSchoolSuite.class)
     @Test
    public void testLogowanieWithCorrectPassword() { //testo logowania przy podaniu prawidlowego hasla
-        System.out.println("LogowanieWithCorrextPassowrd");
         Assertions.assertTrue(aplikacja.logowanie("igor@test.pl","igor123"));
     }
 
@@ -49,13 +57,31 @@ public class AplikacjaTest {
     }
 
     @Test
-    public void testDodajRezerwacje(){ //sprawdzenie dodawania rezerwacji dla instruktora i kursanta jednoczesnie
-        Instruktor i = new Instruktor("igor123","igor@test.pl","Igor","Klepuszewski","444555666",11,15);
-        Kategoria k = new Kategoria("B");
-        Rezerwacja r = new Rezerwacja(1,new Date(),i,kursant,new Usluga("test",100,k));
-        i.getKategorieInstruktora().add(k);
-        kursant.getPlatnosci().add(new Platnosc(new Date(),kursant,1000));
-        aplikacja.dodajRezerwacje(r);
-        assertTrue(i.getRezerwacje().size()==1&&kursant.getRezerwacje().size()==1);
+    public void testDodajRezerwacje(){ //sprawdzenie dodawania rezerwacji w przypadku dostepnosci instrukt i kursanta i wystarczajacych praw i salda
+        when(kursant.czyDostepny(any(Date.class),anyInt())).thenReturn(true);
+        when(instruktor.czyDostepny(any(Date.class),anyInt())).thenReturn(true);
+        when(kursant.getSaldo()).thenReturn(1000);
+        when(instruktor.czyMaPrawa(any(Kategoria.class))).thenReturn(true);
+        Rezerwacja r = new Rezerwacja(1,new Date(),instruktor,kursant,new Usluga("test",100,kategoria));
+        assertTrue(aplikacja.dodajRezerwacje(r));
+    }
+    @Test
+    public void testDodajRezerwacjeZaMaleSaldo(){ //sprawdzenie dodawania rezerwacji w przypadku za malego salda kursanta
+        when(kursant.czyDostepny(any(Date.class),anyInt())).thenReturn(true);
+        when(instruktor.czyDostepny(any(Date.class),anyInt())).thenReturn(true);
+        when(kursant.getSaldo()).thenReturn(80);
+        when(instruktor.czyMaPrawa(any(Kategoria.class))).thenReturn(true);
+        Rezerwacja r = new Rezerwacja(1,new Date(),instruktor,kursant,new Usluga("test",100,kategoria));
+        assertFalse(aplikacja.dodajRezerwacje(r));
+    }
+
+    @Test
+    public void testDodajRezerwacjeInstruktorNiedostepny(){ //sprawdzenie dodawania rezerwacji w przypadku niedostepnosci instruktora
+        when(kursant.czyDostepny(any(Date.class),anyInt())).thenReturn(true);
+        when(instruktor.czyDostepny(any(Date.class),anyInt())).thenReturn(false);
+        when(kursant.getSaldo()).thenReturn(1000);
+        when(instruktor.czyMaPrawa(any(Kategoria.class))).thenReturn(true);
+        Rezerwacja r = new Rezerwacja(1,new Date(),instruktor,kursant,new Usluga("test",100,kategoria));
+        assertFalse(aplikacja.dodajRezerwacje(r));
     }
 }

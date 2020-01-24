@@ -75,12 +75,12 @@ public class Aplikacja {
 
 
     public boolean logowanie (String email, String haslo){
-           for(Uzytkownik u : uzytkownicy)
-               if(u.email==email&&u.haslo==haslo)
+           for(Uzytkownik u : uzytkownicy){
+               if(u.getEmail()==email&&u.getHaslo()==haslo)
                {
                    sesjaUzytkownikow.add(u);
                    return true;
-                  }
+                  }}
                 return false;
     }
     public void rejestracja(Object uzytkownik) {
@@ -99,6 +99,7 @@ public class Aplikacja {
                 administratorzy.add(administrator);
             }
             uzytkownicy.add((Uzytkownik)uzytkownik);
+        uzytkownicy.get(0).getEmail();
     }
 
 
@@ -127,7 +128,9 @@ public class Aplikacja {
         rezerwacje.remove(rezerwacja);
     }
 
-    public void dodajRezerwacje(Rezerwacja rezerwacja) {
+    public boolean dodajRezerwacje(Rezerwacja rezerwacja) {
+
+
         if (rezerwacja.getInstruktor().czyDostepny(rezerwacja.getDataStart(), rezerwacja.getIlosc()))
             if (rezerwacja.getKursant().czyDostepny(rezerwacja.getDataStart(), rezerwacja.getIlosc()))
                 if (rezerwacja.getInstruktor().czyMaPrawa(rezerwacja.getUsluga().getKategoria()))
@@ -138,7 +141,9 @@ public class Aplikacja {
                         Platnosc p = new Platnosc(new Date(),rezerwacja.kursant,(-1)*rezerwacja.getUsluga().getCena());
                         rezerwacja.getKursant().getPlatnosci().add(p);
                         platnosci.add(p);
+                        return true;
                     }
+        return false;
     }
 
     public void usunUsluge(Usluga usluga) {

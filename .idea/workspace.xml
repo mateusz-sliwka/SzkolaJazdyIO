@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9e016e-6d74-4f55-ae8b-705f6aa6b757" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AplikacjaMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aplikacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AplikacjaMockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AplikacjaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AplikacjaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Aplikacja.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Aplikacja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AplikacjaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AplikacjaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AplikacjaMockTest">
+  <component name="RunManager" selected="JUnit.AplikacjaTest">
     <configuration name="AplikacjaMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,47 +89,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrivingSchoolSuiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AplikacjaTest.testDodajRezerwacje" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DrivingSchoolSuiteTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
+      <option name="METHOD_NAME" value="testDodajRezerwacje" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstruktorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AplikacjaTest.testDodajRezerwacjeZaMaleSaldo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InstruktorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
+      <option name="METHOD_NAME" value="testDodajRezerwacjeZaMaleSaldo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlatnoscTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AplikacjaTest.testLogowanieWithCorrectPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlatnoscTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="AplikacjaTest" />
+      <option name="METHOD_NAME" value="testLogowanieWithCorrectPassword" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.AplikacjaTest" />
-      <item itemvalue="JUnit.DrivingSchoolSuiteTest" />
-      <item itemvalue="JUnit.PlatnoscTest" />
-      <item itemvalue="JUnit.InstruktorTest" />
       <item itemvalue="JUnit.AplikacjaMockTest" />
+      <item itemvalue="JUnit.AplikacjaTest.testDodajRezerwacje" />
+      <item itemvalue="JUnit.AplikacjaTest.testDodajRezerwacjeZaMaleSaldo" />
+      <item itemvalue="JUnit.AplikacjaTest.testLogowanieWithCorrectPassword" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AplikacjaMockTest" />
-        <item itemvalue="JUnit.InstruktorTest" />
-        <item itemvalue="JUnit.PlatnoscTest" />
-        <item itemvalue="JUnit.DrivingSchoolSuiteTest" />
         <item itemvalue="JUnit.AplikacjaTest" />
+        <item itemvalue="JUnit.AplikacjaTest.testLogowanieWithCorrectPassword" />
+        <item itemvalue="JUnit.AplikacjaTest.testDodajRezerwacjeZaMaleSaldo" />
+        <item itemvalue="JUnit.AplikacjaTest.testDodajRezerwacje" />
+        <item itemvalue="JUnit.AplikacjaMockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,26 +225,26 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="137" y="0" key="CommitChangelistDialog2/0.0.1024.728@0.0.1024.728" timestamp="1579822800177" />
-    <state width="981" height="2" key="GridCell.Tab.0.bottom" timestamp="1579822830701">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1579828544794">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1579822830701" />
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1579806553039" />
-    <state width="981" height="2" key="GridCell.Tab.0.center" timestamp="1579822830700">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1579828544794" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1579828544793">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1579822830700" />
-    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1579806553038" />
-    <state width="981" height="2" key="GridCell.Tab.0.left" timestamp="1579822830700">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1579828544793" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1579828544792">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1579822830700" />
-    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1579806553038" />
-    <state width="981" height="2" key="GridCell.Tab.0.right" timestamp="1579822830701">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1579828544792" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1579828544794">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1579822830701" />
-    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1579806553039" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1579828544794" />
     <state x="42" y="20" key="Maven.ArtifactSearchDialog" timestamp="1579817634084">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
