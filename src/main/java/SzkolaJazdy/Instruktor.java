@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -88,7 +90,7 @@ public class Instruktor extends Uzytkownik {
 
     @Override
     public String toString() {
-        return "Instruktor{" +
+        return "SzkolaJazdy.Instruktor{" +
                 " imie='" + imie + '\'' +
                 ", nazwisko='" + nazwisko + '\'' +
                 ", nrTelefonu='" + nrTelefonu + '\'' +

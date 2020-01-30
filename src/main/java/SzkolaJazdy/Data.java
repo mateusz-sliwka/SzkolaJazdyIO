@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 import java.util.Date;
 
 public class Data {
@@ -15,7 +17,7 @@ public class Data {
     }
 
     public Instruktor getInstruktor(){
-    return new Instruktor("ins11","instruktor@test.pl","Instruktor","Trstowy","444354434",11,12);
+    return new Instruktor("ins11","instruktor@test.pl","SzkolaJazdy.Instruktor","Trstowy","444354434",11,12);
     }
 
     public Rezerwacja getRezerwacja() {

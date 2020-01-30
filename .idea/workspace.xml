@@ -2,147 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9e016e-6d74-4f55-ae8b-705f6aa6b757" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FitnesseTests/SetUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FitnesseTests/TestAplikacja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Aplikacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DrivingSchoolSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/DrivingSchoolSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Instruktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kategoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Kategoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kursant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Kursant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Platnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Platnosc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rezerwacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Rezerwacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Usluga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Usluga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Uzytkownik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SzkolaJazdy/Uzytkownik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AplikacjaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AplikacjaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DrivingSchoolSuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DrivingSchoolTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InstruktorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstruktorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RezerwacjaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KursantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KursantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlatnoscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlatnoscTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Aplikacja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DrivingSchoolSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Instruktor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kategoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kursant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Platnosc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rezerwacja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Usluga.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Uzytkownik.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/AplikacjaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AplikacjaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DrivingSchoolSuiteTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/InstruktorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InstruktorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KursantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KursantTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PlatnoscTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PlatnoscTest.class" afterDir="false" />
     </list>
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Aplikacja.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="415">
-                    <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-                    <folding>
-                      <element signature="e#3166#3167#0" expanded="true" />
-                      <element signature="e#3218#3219#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AplikacjaTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AplikacjaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrivingSchoolTestSuite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DrivingSchoolTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MockedTestSuite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MockedTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlatnoscTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PlatnoscTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KursantTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/KursantTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstruktorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InstruktorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rezerwacja.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Rezerwacja.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Usluga.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Usluga.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrivingSchoolSuite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DrivingSchoolSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,24 +57,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/RezerwacjaTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DrivingSchoolTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/InstruktorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/KursantTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AplikacjaTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="VAYEDYlO" />
   </component>
@@ -188,63 +67,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectId" id="1UGFB1GawEn2yptPAulrKaM41dP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SzkolaJazdyIO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzkolaJazdyIO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SzkolaJazdyIO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzkolaJazdyIO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SzkolaJazdyIO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzkolaJazdyIO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SzkolaJazdyIO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzkolaJazdyIO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SzkolaJazdyIO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzkolaJazdyIO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SzkolaJazdyIO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzkolaJazdyIO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -274,118 +98,78 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.MockedTestSuite">
+  <component name="RunManager" selected="Application.Aplikacja">
+    <configuration name="Aplikacja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SzkolaJazdy.Aplikacja" />
+      <module name="SzkolaJazdyIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SzkolaJazdy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DrivingSchoolTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DrivingSchoolTestSuite" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="KursantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="KursantTest" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MockedTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MockedTestSuite" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="RezerwacjaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzkolaJazdyIO" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RezerwacjaTest" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RezerwacjaTest.TestSetKursant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SzkolaJazdyIO" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RezerwacjaTest" />
-      <option name="METHOD_NAME" value="TestSetKursant" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.RezerwacjaTest" />
-      <item itemvalue="JUnit.RezerwacjaTest.TestSetKursant" />
       <item itemvalue="JUnit.DrivingSchoolTestSuite" />
       <item itemvalue="JUnit.KursantTest" />
       <item itemvalue="JUnit.MockedTestSuite" />
+      <item itemvalue="Application.Aplikacja" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aplikacja" />
         <item itemvalue="JUnit.MockedTestSuite" />
         <item itemvalue="JUnit.DrivingSchoolTestSuite" />
         <item itemvalue="JUnit.KursantTest" />
         <item itemvalue="JUnit.RezerwacjaTest" />
-        <item itemvalue="JUnit.RezerwacjaTest.TestSetKursant" />
       </list>
     </recent_temporary>
   </component>
@@ -436,6 +220,8 @@
       <workItem from="1579263560337" duration="2709000" />
       <workItem from="1579732118668" duration="574000" />
       <workItem from="1579792502524" duration="12667000" />
+      <workItem from="1580397361174" duration="1170000" />
+      <workItem from="1580410690361" duration="3670000" />
     </task>
     <servers />
   </component>
@@ -471,43 +257,6 @@
       <configuration name="DrivingSchoolTestSuite" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3493000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32943678" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -517,12 +266,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -530,18 +273,16 @@
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="177" key="#Project_Structure" timestamp="1579265316484">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="440" y="177" key="#Project_Structure/0.23.1680.977@0.23.1680.977" timestamp="1579265316484" />
-    <state x="242" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579819295856">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state x="454" y="189" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580410975121">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state x="242" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1024.728@0.0.1024.728" timestamp="1579819295856" />
+    <state x="454" y="189" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1920.1007/1920.-24.1680.1027@0.23.1920.1007" timestamp="1580410975121" />
     <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579266473430">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
@@ -555,26 +296,30 @@
     </state>
     <state x="137" y="0" key="CommitChangelistDialog2/0.0.1024.728@0.0.1024.728" timestamp="1579822800177" />
     <state x="225" y="23" key="CommitChangelistDialog2/0.23.1680.977@0.23.1680.977" timestamp="1579830503999" />
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1579832769832">
-      <screen x="0" y="23" width="1680" height="977" />
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1580415092304">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1579822830701" />
     <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1579832769832" />
-    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1579832769831">
-      <screen x="0" y="23" width="1680" height="977" />
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1920.1007/1920.-24.1680.1027@0.23.1920.1007" timestamp="1580415092304" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1580415092303">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1579822830700" />
     <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1579832769831" />
-    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1579832769831">
-      <screen x="0" y="23" width="1680" height="977" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1920.1007/1920.-24.1680.1027@0.23.1920.1007" timestamp="1580415092303" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1580415092302">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1579822830700" />
     <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1579832769831" />
-    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1579832769832">
-      <screen x="0" y="23" width="1680" height="977" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1920.1007/1920.-24.1680.1027@0.23.1920.1007" timestamp="1580415092302" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1580415092303">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state width="981" height="2" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1579822830701" />
     <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1579832769832" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1920.1007/1920.-24.1680.1027@0.23.1920.1007" timestamp="1580415092303" />
     <state x="42" y="20" key="Maven.ArtifactSearchDialog" timestamp="1579817634084">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
@@ -594,10 +339,11 @@
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="612" y="261" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.977@0.23.1680.977" timestamp="1579266028538" />
-    <state x="100" y="123" width="1480" height="777" key="dock-window-1" timestamp="1579805399319">
-      <screen x="0" y="23" width="1680" height="977" />
+    <state x="430" y="437" width="1692" height="801" key="dock-window-1" timestamp="1580410704313">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
-    <state x="100" y="123" width="1480" height="777" key="dock-window-1/0.23.1680.977@0.23.1680.977" timestamp="1579805399319" />
+    <state x="100" y="123" width="1480" height="777" key="dock-window-1/0.23.1680.977@0.23.1680.977" timestamp="1580397969764" />
+    <state x="430" y="437" width="1692" height="801" key="dock-window-1/0.23.1920.1007/1920.-24.1680.1027@0.23.1920.1007" timestamp="1580410704313" />
     <state x="217" y="229" key="new project wizard" timestamp="1578681318041">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -606,130 +352,12 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="254" y="0" key="refactoring.ChangeSignatureDialog/0.0.1024.728@0.0.1024.728" timestamp="1579818166091" />
-    <state x="287" y="89" width="1103" height="910" key="search.everywhere.popup" timestamp="1579832176569">
-      <screen x="0" y="23" width="1680" height="977" />
+    <state x="328" y="91" width="1261" height="938" key="search.everywhere.popup" timestamp="1580411814289">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state x="175" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1024.728@0.0.1024.728" timestamp="1579819326926" />
     <state x="287" y="89" width="1103" height="910" key="search.everywhere.popup/0.23.1680.977@0.23.1680.977" timestamp="1579832176569" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kursant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Aplikacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-          <folding>
-            <element signature="e#3166#3167#0" expanded="true" />
-            <element signature="e#3218#3219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rezerwacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Usluga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RezerwacjaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MockedTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PlatnoscTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InstruktorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DrivingSchoolSuiteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DrivingSchoolSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DrivingSchoolTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AplikacjaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KursantTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <state x="328" y="91" width="1261" height="938" key="search.everywhere.popup/0.23.1920.1007/1920.-24.1680.1027@0.23.1920.1007" timestamp="1580411814289" />
   </component>
   <component name="masterDetails">
     <states>

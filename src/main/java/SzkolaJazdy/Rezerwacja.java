@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 import java.util.Date;
 import java.util.Objects;
 
@@ -76,7 +78,7 @@ public class Rezerwacja {
 
     @Override
     public String toString() {
-        return "Rezerwacja{" +
+        return "SzkolaJazdy.Rezerwacja{" +
                 "ilosc=" + ilosc +
                 ", dataStart=" + dataStart +
                 ", instruktor=" + instruktor +

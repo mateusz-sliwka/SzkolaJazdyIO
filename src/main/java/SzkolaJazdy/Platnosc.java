@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 import java.util.Date;
 import java.util.Objects;
 
@@ -50,7 +52,7 @@ public class Platnosc {
 
     @Override
     public String toString() {
-        return "Platnosc{" +
+        return "SzkolaJazdy.Platnosc{" +
                 "dataPlatnosci=" + dataPlatnosci +
                 ", kursant=" + kursant +
                 ", wartosc=" + wartosc +

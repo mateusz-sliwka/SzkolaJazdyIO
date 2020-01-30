@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 import java.util.Objects;
 
 public class Usluga {
@@ -47,7 +49,7 @@ public class Usluga {
 
     @Override
     public String toString() {
-        return "Usluga{" +
+        return "SzkolaJazdy.Usluga{" +
                 "nazwa='" + nazwa + '\'' +
                 ", cena=" + cena +
                 ", kategoria=" + kategoria +

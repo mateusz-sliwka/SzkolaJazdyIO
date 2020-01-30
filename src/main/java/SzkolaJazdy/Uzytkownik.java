@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 import java.util.Objects;
 
 public class Uzytkownik {
@@ -71,7 +73,7 @@ public class Uzytkownik {
 
     @Override
     public String toString() {
-        return "Uzytkownik{" +
+        return "SzkolaJazdy.Uzytkownik{" +
                 "email='" + email + '\'' +
                 ", imie='" + imie + '\'' +
                 ", nazwisko='" + nazwisko + '\'' +

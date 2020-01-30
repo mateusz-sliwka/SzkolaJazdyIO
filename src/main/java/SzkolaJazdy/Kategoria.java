@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 import java.util.ArrayList;
 
 public class Kategoria {
@@ -40,7 +42,7 @@ public class Kategoria {
 
     @Override
     public String toString() {
-        return "Kategoria{" +
+        return "SzkolaJazdy.Kategoria{" +
                 "nazwa='" + symbol + '\'' +
                 ", instruktorzy=" + instruktorzy +
                 '}';

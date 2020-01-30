@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -86,7 +88,7 @@ public class Kursant extends Uzytkownik {
 
     @Override
     public String toString() {
-        return "Kursant{" +
+        return "SzkolaJazdy.Kursant{" +
                 "pesel='" + pesel + '\'' +
                 ", PKK='" + PKK + '\'' +
                 ", email='" + email + '\'' +

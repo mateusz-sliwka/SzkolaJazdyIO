@@ -1,9 +1,9 @@
+import SzkolaJazdy.*;
 import org.apache.commons.lang3.time.DateUtils;
 import org.junit.Before;
 import org.junit.experimental.categories.Category;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 

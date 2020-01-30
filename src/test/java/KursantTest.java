@@ -1,4 +1,6 @@
-import org.junit.Before;
+import SzkolaJazdy.Data;
+import SzkolaJazdy.Kursant;
+import SzkolaJazdy.Platnosc;
 import org.junit.experimental.categories.Category;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,3 +1,6 @@
+import SzkolaJazdy.Data;
+import SzkolaJazdy.Kursant;
+import SzkolaJazdy.Platnosc;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;

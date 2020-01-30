@@ -1,3 +1,5 @@
+package SzkolaJazdy;
+
 public class Administrator extends Uzytkownik {
 
     public Administrator(String haslo, String email, String imie, String nazwisko, String nrTelefonu) {
@@ -7,7 +9,7 @@ public class Administrator extends Uzytkownik {
 
     @Override
     public String toString() {
-        return "Administrator{" +
+        return "SzkolaJazdy.Administrator{" +
                 "email='" + email + '\'' +
                 ", imie='" + imie + '\'' +
                 ", nazwisko='" + nazwisko + '\'' +
